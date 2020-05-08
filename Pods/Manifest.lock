@@ -1,0 +1,16 @@
+PODS:
+  - XMPFramework (1.0.0)
+
+DEPENDENCIES:
+  - XMPFramework
+
+SPEC REPOS:
+  trunk:
+    - XMPFramework
+
+SPEC CHECKSUMS:
+  XMPFramework: b67432cf6cfb428110f70c4072b88fa9910cfd1f
+
+PODFILE CHECKSUM: b1e82b21c0f7bb8dbf43917b88b81e8609dcc7d4
+
+COCOAPODS: 1.8.4

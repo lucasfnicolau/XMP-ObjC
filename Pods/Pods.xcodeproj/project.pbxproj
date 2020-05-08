@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02309C58840C85336BB3B0F9788D798C /* XMPFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F3A7EB841768BB0201E70EDBFDCD30 /* XMPFramework-dummy.m */; };
+		05A1199448A6E3050669C2FC6A019A8A /* XMPCoreFwdDeclarations.h in Headers */ = {isa = PBXBuildFile; fileRef = 067887D4C437D3811DD91DA33B553680 /* XMPCoreFwdDeclarations.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09D7B1DCE9BBF0C5E2EE4CB10873C25B /* TXMPFiles.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2D800E455C95F4AD23F26693878B16E0 /* TXMPFiles.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CA87351466374342EE4CD37E808F918 /* IConfigurable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6699A80E82600B3E2A2D1A3E2E5E0B39 /* IConfigurable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E61213E48E8D14B3FEA092CD1CB6224 /* XMPReader+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CFDE67E31D381E47E63F680F6CE530 /* XMPReader+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		126AA25E1C18FDD6AF85EF2BDFBFD964 /* TXMPMeta.incl_cpp in Sources */ = {isa = PBXBuildFile; fileRef = 852E4A6D2240047A843ECF2869038F28 /* TXMPMeta.incl_cpp */; };
+		14883059CC64B7FE4136B9A36A2F9D93 /* ISimpleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59F1E241F3347D28894A4129D695B48B /* ISimpleNode.cpp */; };
+		1A535C00044625DA9D9568A54717DE99 /* XMPBatchWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = C82C98CDB0FC7747C73963761256232F /* XMPBatchWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2064DAD8A03F92FAF481933AB5ADEF51 /* IMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D1BEBCE57D7BC08260A45FAE2DBCDE /* IMetadata.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20F1644CE129BABE7F3568E8CEFB63E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		28B0F7C2F9EC1786875995B6580BF2FE /* TXMPMeta.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6838BA3FCF66AE930DCCF87D5D521594 /* TXMPMeta.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E26F9AEDA4E3CBFD4EFC33DFCB42242 /* ICoreObjectFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DCC55D81343AE44A366FA9DA58EDD4 /* ICoreObjectFactory.cpp */; };
+		37C5AF582828DE243CE1CD8C5CBBAECB /* TXMPIterator.incl_cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D512A1AEE9F3C0D58BCC7F2484380 /* TXMPIterator.incl_cpp */; };
+		3D965AD60346D99F114356615E3E65E7 /* INode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 414FFE8FFB64DD03ACE375B14EC6EE14 /* INode.cpp */; };
+		430AB2821A71E64CBF5B7AC2C5869FFF /* IArrayNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D844D90336A11094F996C91EA85D60E /* IArrayNode.cpp */; };
+		45BC0252B8FBA7B222C195259FA564E6 /* ICoreObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F6DEA1CB77FDD8505DCAC3753092629 /* ICoreObjectFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47096B14BDC798E185E895C480CF6296 /* IObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = FE186B65EDA2AE60A68EB2488E4106D9 /* IObjectFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		482F310A09EB0365151A537CF7C4CDE4 /* IThreadSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FBBBAA5267B8460BAD57E6CFF43333 /* IThreadSafe.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A6203435AF139F7AC535CC5BEA9E7F3 /* IDOMParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A480E45252398C6FD645C455F473ECDF /* IDOMParser.cpp */; };
+		511C902D1939494E454E8AE17CAEF667 /* WXMPUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 024B5261E6C916CF309795270B626B86 /* WXMPUtils.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A45BAC50BF63F989C8FD5B6B4051512 /* XMP_IO.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 659D52F3331CC12C84FDD0DD92A8CFBC /* XMP_IO.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		5ABC13ABD3551ADB03CEABDBF46FEEF7 /* TWrapperFunctions2.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAD84C09603CABBC2184C90D7D8110E /* TWrapperFunctions2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F0DC09927643344E6C9BE18808F681C /* INode.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D8991BAB3BC157A3D4E2D52D9918C1 /* INode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		632B25200E8CA4B9B7DACD3CEB317E5E /* ICompositeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E90C44FB911AF0E4E9024EFF55384440 /* ICompositeNode.cpp */; };
+		645823223F46783BEE3C4BBC21287DDC /* XMPWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D54B345FDEB35752C04C48886B399DEF /* XMPWriter.mm */; };
+		676B7B2BF33CEFCE3496E24D0A213DCB /* IStructureNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C697E7EE29B0B09572BA02BE4292BF99 /* IStructureNode.cpp */; };
+		681FE77990291142D15CCD9CFEA30EFB /* XMPCommonErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3938B8D0B21A034BDBDD601D6C441A87 /* XMPCommonErrorCodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68AF4BE8E19A015CD2DD8A44A94BC3C7 /* IPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8544BBA9AA35EC8B1372982F208EAC1A /* IPath.cpp */; };
+		6D5E0052F66F52EA34B97285EB503170 /* TXMPIterator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6E020D6A3F6E98022B5A662948FE90E8 /* TXMPIterator.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		6EB2C58BF822D5478415670B3CA8BE26 /* IPathSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06B921C2457C90678EC7918EE1F6DEC8 /* IPathSegment.cpp */; };
+		6F15EB82BE1F14D35D40ECF532F9BCA6 /* XMPCoreDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D85D0FE5DAC3817641F80F39BB981D /* XMPCoreDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70EBC0F6E9494C5BCB8093D56F0C2B71 /* XMPFrameworkErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = B051236F2D9149F00010B77144FAC160 /* XMPFrameworkErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7177E995AA23DC39E16E2E8B7234A6BB /* XMP_Const.h in Headers */ = {isa = PBXBuildFile; fileRef = 332F95701558DA43A4A08CFD9403697C /* XMP_Const.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7275872EB125894D1B3EF7A78F68623D /* IPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAF8ECC2FDD584BD88AEB238E1BFDD5 /* IPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7386994C560E55A631C5F3BDBF824D1E /* XMPCommonLatestInterfaceVersions.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EBAD2C085A9E3755FAA16202AAB07D /* XMPCommonLatestInterfaceVersions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76636C86392A46CF3D06B4BE277524EE /* XMPCommonFwdDeclarations.h in Headers */ = {isa = PBXBuildFile; fileRef = B830F3399EDC12F6761AA8EDDDEBFAE3 /* XMPCommonFwdDeclarations.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E7C8FB54E3112BE28FB851C574E211C /* IVersionable.h in Headers */ = {isa = PBXBuildFile; fileRef = 681A9C3ECAA74B45F430CF6745FEB94A /* IVersionable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		832028D6987C155033E8A673AC57CE1D /* XMPWriter+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE0BE27D2FEBAD5E2D24317C51B5057 /* XMPWriter+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C496E27E6493B9D286641A424C505FF /* ISimpleNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C55315DB0EC874AF88D28EE45B76D2 /* ISimpleNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D51FDCDD218543C1CEEC57F8C3ECAAC /* XMP_Environment.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CBFB21EF0E107B5AD445EBB06243D6 /* XMP_Environment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91E9AA16C57A3DDB0227543620C32EE5 /* IConfigurationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6148C5B758D246871310191D95D7D8 /* IConfigurationManager.cpp */; };
+		92D378E22CA9CFEFAEB5A7C0B4F95057 /* IError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B9135E7FBAC4B82060FA940F5829B7 /* IError.cpp */; };
+		969A5156B0C90EF05E4AF5C69469A888 /* TWrapperFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A08C0CEB1B02737B5A304B0580A144 /* TWrapperFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		977D73C780F477F7BA0AA8E1846976E4 /* XMP.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 80EC71C00BE8DD295325F15FA619FF6B /* XMP.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		9895918CBE2B526E907AE83A4E876E21 /* IMemoryAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FCC0BF2EA335AC24FADA4946330DEC /* IMemoryAllocator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9ABFF5DA542ED602CC7464B6001F32F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9BDCBDD78091143E13150EDEA4E453C5 /* ICompositeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EC1E9B553BF9361C25B92E358E4C38 /* ICompositeNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EE7B537FEFC581F878F2BD6816E7DBA /* ICoreConfigurationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C65436E4A1A08C41BA1AD8C6EB536CDA /* ICoreConfigurationManager.cpp */; };
+		A3D08E9CA6CE5FD8A4EC372C2A9B9B8B /* XMPProperty+AutoResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C90DCB5C91FC6BFA45592C3F31D9B4 /* XMPProperty+AutoResolving.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A684216ECA15EF0D2DA6C4022B0A57F3 /* XMPReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF03B93E79E045913EE0637EB6AA0DD /* XMPReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7865CBA8C6FB526CC9D2361495D11FB /* IClientDOMParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AACFE220D6E5DC27A36859612578129A /* IClientDOMParser.cpp */; };
+		B13DF9ABB516026F29B4CFA6A80B49DE /* XMP_incl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5B3EB00871EB01F849972DF0FA22D640 /* XMP_incl.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1DBAAFF498FB7BAAF8D5BE0276D30A0 /* IClientDOMSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = F83872ECD912BEF03F49DFACF7847FA2 /* IClientDOMSerializer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1E3EBBF4D9C57870344DB5859C29A3E /* IDOMSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6CFE440C4F64BD0B3B9FF88800EEF1B /* IDOMSerializer.cpp */; };
+		B6B1683BC64F0B6E47D131F51B5B6FB4 /* IArrayNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E1D647D51C7D79EBE6E161A6FA73F2 /* IArrayNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6BE6612D522EB0A788B3B2392D213EE /* IErrorNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB95D7727CA1DF8739C1A30FDC0A3D8 /* IErrorNotifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B71C358A71ABC690F40FC9D3DF5A36E8 /* IDOMSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7867ACBE971741214D137171A93208AE /* IDOMSerializer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB05EC5D8EB0962763D3849D988756BA /* XMPBatchWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37E923940D4AD7D39063D48872161085 /* XMPBatchWriter.mm */; };
+		BB77C83D58DA5A8CF90089DB744ADEDB /* XMPFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1395AB9C620ADE2476AEC28E0BD367 /* XMPFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEFEFA7F91B6FEAFE9E8426778CAD3DA /* IClientDOMSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C327904212B52CC1CAF4B089D8FD2DB2 /* IClientDOMSerializer.cpp */; };
+		BF8158B493224EA02E07ED203E61BC77 /* XMPProperty+AutoResolving.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79488AD8621B268CBBC8BEDE2DD2C4E9 /* XMPProperty+AutoResolving.mm */; };
+		BF94CFFE3774841984BA9ED97F20FC69 /* ISharedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E53B849FF75DDFA26940D980AAE579F /* ISharedObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0939C2E4AE1D4F0166DDB356E3EE84E /* IUTF8String.h in Headers */ = {isa = PBXBuildFile; fileRef = 6820E3A576DB98099E6C51CD1BEC13E6 /* IUTF8String.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1DE45C4F005932D05C9E1D33CE84F41 /* INameSpacePrefixMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D34429D8731E281DF387D7A9E3D577A /* INameSpacePrefixMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1E5A348E870C2F4922A81A92D499CDE /* IClientDOMParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 714D032BA6B5C86510DB4DD44BE9EC55 /* IClientDOMParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2A91B80A3B67242AC96A283B5C2C512 /* IConfigurable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D155EA6FA33A543F024864108C10E11 /* IConfigurable.cpp */; };
+		C40113821F2CDDA6B358D4F6642516FC /* TXMPFiles.incl_cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54F001B99DE8AAC6BB2DACCD7E73FF1E /* TXMPFiles.incl_cpp */; };
+		C451390E0D32F865CBD7B36240CABF48 /* XMPReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F4B7307B1FF4324C50475A4E9CBAF /* XMPReader.mm */; };
+		C727DB54BE7CB7A9D137B660533D2C1F /* WXMPMeta.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 55BB5E3DF4EB10C71B715BB4C80E6E62 /* WXMPMeta.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		CADA0606C79365AA06997186F75F521F /* IError.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F7A01D256C35F4D9102689579A3020 /* IError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC236076546539A4C2CE64F82F052D77 /* IConfigurationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F81C5EE0D01B135AA1CD0D0564DCC3B7 /* IConfigurationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC5933D89C334A8726648331EE1C6B3D /* IDOMParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AFE75FAD1AF643518A80C6C485E413 /* IDOMParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC748CE9ED99ABD189ABBD988213789D /* TXMPUtils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3D7D7D93A12C757A4FFF202A8AD633C1 /* TXMPUtils.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5A72FD7C8C655028AA1FF957B88B137 /* XMPWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9AF3D1384079AC6F7F2EC3FE6E8D66 /* XMPWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D73475D7431F3899C03EC0E95CA0D23F /* INodeIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECDB315F57911BD3ACFE2FB94D5BB0FE /* INodeIterator.cpp */; };
+		D89A9AFD3F6FEBA30384A9A552FB4031 /* ICoreConfigurationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD0A0276999AFAA6C91E62F15A8DCB5 /* ICoreConfigurationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9B64C4BD1647F7DF1E10E945E5E41DA /* IPathSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2296BE8D6126BAB3826B7E802AFF78 /* IPathSegment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA0899D1C0D0DF01A72878112716C9C4 /* XMPProperty+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D0F2E7017F88D013DC338B1A3438D7 /* XMPProperty+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DA618E09F59262C85414546C6C0D5047 /* XMP_Version.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C7EAFD3BCDB4F73DE2D72D60832456 /* XMP_Version.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB1260931F311DBE3C88A392C8058872 /* XMPCoreLatestInterfaceVersions.h in Headers */ = {isa = PBXBuildFile; fileRef = B09AF60EC590D8184491A8A95617FEFD /* XMPCoreLatestInterfaceVersions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCE4AB6429657BF9CC41728DEDC57268 /* INodeIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9563BE91B22B7026FAA608288AEEF22E /* INodeIterator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDFB39A3EDD773540145E57A788DFDF3 /* INameSpacePrefixMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6AF6BFA8A50D05D489F9FA77B709282 /* INameSpacePrefixMap.cpp */; };
+		E1AD248D77900D5F97FCFFC4FB007A44 /* WXMP_Common.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B235A9C0050A02EB03FAA69F5887110B /* WXMP_Common.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E48E8B7B8FE7E7470E4B885F5D3EA62F /* XMPFramework-PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = 3E163790D1544C244B43CB5DB3745F05 /* XMPFramework-PrefixHeader.pch */; };
+		E76F7B50E3BF54F12A8C21926245DD30 /* XMPProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC5827C6709764E8BDAF1CAD964556 /* XMPProperty.mm */; };
+		E7D36055F62CDF06E426B70138183CAB /* TXMPUtils.incl_cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E9465794F86A7A40873EDADD99D94 /* TXMPUtils.incl_cpp */; };
+		E86DF79AAD8E94670FC37A5A110187A8 /* IUTF8String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4623AE4AA88DF76D26BB714B7CEA4DFE /* IUTF8String.cpp */; };
+		EA5CE9CE64BE02F200243FEAD645CCD5 /* XMPProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 390CC1EC792D3F18008DFE5E666460E0 /* XMPProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB65A5D3B8054DD26E983EF02AE450B6 /* IStructureNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD0DAF0D6A09A9224DE526766A82F08 /* IStructureNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC460184B238D6100B460C1BD3A20B9D /* WXMPIterator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9F9F3245C4CBA838E189742777B0FFE5 /* WXMPIterator.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDAAB889FE06794897501E415FF3A90E /* WXMPFiles.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5C798D80A3EFC551B6C0265EAE4F1E6A /* WXMPFiles.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE16F185C39B80E52B0C80893A1F52CB /* IMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F80487FFE8A59C0DC181733EFE4DAF7 /* IMetadata.cpp */; };
+		EFEB169F8F7F32734AAC6F2B690D0543 /* Pods-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FC3740048F4ED412B80AAB3C2DAEF /* Pods-ObjC-dummy.m */; };
+		F2C91CBA4DEEBD5DBFB9020901AEDE80 /* AdobeXMPToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DDF9CAC519A59D081A0FC65B802BB4A /* AdobeXMPToolKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F35DBF020C99016BF4E70D33F0692387 /* IDOMImplementationRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BCFBA2C3F158882914D1D867AC41187 /* IDOMImplementationRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F65EC7F41518E993DF759E64A2BB77BA /* XMPCoreErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 97336E654711F73B2F4357350A7CF08E /* XMPCoreErrorCodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB096AEB3B3FAA7A4126E7025C79C867 /* IErrorNotifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B7AD0A4D24A20A8AF22510BC6FF8AF1 /* IErrorNotifier.cpp */; };
+		FB2C0421E9C2A8BA93ABA3451F754695 /* Pods-ObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52716458E4AC146A3942ECE1283C7B2C /* Pods-ObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0F5A569D8BFF4806B6B278D5FBEE66 /* XMPCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EDE77E9224B3B8B8AC84E8331EBE1D3 /* XMPCommonDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF7E36C07B487E9002AD900524CCE749 /* IDOMImplementationRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B11C1A443B07DAD8D01661B1ADB861E /* IDOMImplementationRegistry.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A38E8DD13CD7185B030CA128AE1FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860190491B0E76A7F7C65961D93E5856;
+			remoteInfo = XMPFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024B5261E6C916CF309795270B626B86 /* WXMPUtils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = WXMPUtils.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/client-glue/WXMPUtils.hpp"; sourceTree = "<group>"; };
+		05A08C0CEB1B02737B5A304B0580A144 /* TWrapperFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWrapperFunctions.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Utilities/TWrapperFunctions.h"; sourceTree = "<group>"; };
+		067887D4C437D3811DD91DA33B553680 /* XMPCoreFwdDeclarations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPCoreFwdDeclarations.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/XMPCoreFwdDeclarations.h"; sourceTree = "<group>"; };
+		06B921C2457C90678EC7918EE1F6DEC8 /* IPathSegment.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IPathSegment.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IPathSegment.cpp"; sourceTree = "<group>"; };
+		0835A8B44B5409084117FE8C07ED66F7 /* Pods-ObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A9D512A1AEE9F3C0D58BCC7F2484380 /* TXMPIterator.incl_cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TXMPIterator.incl_cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/client-glue/TXMPIterator.incl_cpp"; sourceTree = "<group>"; };
+		0B247F29898D691FCC8675E025D4473C /* XMPFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMPFramework.xcconfig; sourceTree = "<group>"; };
+		0BAD84C09603CABBC2184C90D7D8110E /* TWrapperFunctions2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWrapperFunctions2.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Utilities/TWrapperFunctions2.h"; sourceTree = "<group>"; };
+		0BCFBA2C3F158882914D1D867AC41187 /* IDOMImplementationRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDOMImplementationRegistry.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IDOMImplementationRegistry.h"; sourceTree = "<group>"; };
+		0D34429D8731E281DF387D7A9E3D577A /* INameSpacePrefixMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INameSpacePrefixMap.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/INameSpacePrefixMap.h"; sourceTree = "<group>"; };
+		0FE0BE27D2FEBAD5E2D24317C51B5057 /* XMPWriter+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPWriter+Private.h"; path = "XMPFramework/Classes/Private/XMPWriter+Private/XMPWriter+Private.h"; sourceTree = "<group>"; };
+		1B7AD0A4D24A20A8AF22510BC6FF8AF1 /* IErrorNotifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IErrorNotifier.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/source/IErrorNotifier.cpp"; sourceTree = "<group>"; };
+		1BC5AFFBD6C1995950D1BCBD5AA41F37 /* XMPFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMPFramework-Info.plist"; sourceTree = "<group>"; };
+		1DDF9CAC519A59D081A0FC65B802BB4A /* AdobeXMPToolKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdobeXMPToolKit.h; path = "XMPFramework/Classes/Private/Adobe XMP Toolkit/AdobeXMPToolKit.h"; sourceTree = "<group>"; };
+		1EF03B93E79E045913EE0637EB6AA0DD /* XMPReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPReader.h; path = XMPFramework/Classes/Public/XMPReader/XMPReader.h; sourceTree = "<group>"; };
+		1F0F4B7307B1FF4324C50475A4E9CBAF /* XMPReader.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = XMPReader.mm; path = XMPFramework/Classes/Public/XMPReader/XMPReader.mm; sourceTree = "<group>"; };
+		21F7A01D256C35F4D9102689579A3020 /* IError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IError.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/IError.h"; sourceTree = "<group>"; };
+		22DCC55D81343AE44A366FA9DA58EDD4 /* ICoreObjectFactory.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ICoreObjectFactory.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/ICoreObjectFactory.cpp"; sourceTree = "<group>"; };
+		24B9135E7FBAC4B82060FA940F5829B7 /* IError.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IError.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/source/IError.cpp"; sourceTree = "<group>"; };
+		2D800E455C95F4AD23F26693878B16E0 /* TXMPFiles.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TXMPFiles.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/TXMPFiles.hpp"; sourceTree = "<group>"; };
+		2F6DEA1CB77FDD8505DCAC3753092629 /* ICoreObjectFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICoreObjectFactory.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/ICoreObjectFactory.h"; sourceTree = "<group>"; };
+		31CFDE67E31D381E47E63F680F6CE530 /* XMPReader+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPReader+Private.h"; path = "XMPFramework/Classes/Private/XMPReader+Private/XMPReader+Private.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		332F95701558DA43A4A08CFD9403697C /* XMP_Const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMP_Const.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMP_Const.h"; sourceTree = "<group>"; };
+		37E923940D4AD7D39063D48872161085 /* XMPBatchWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = XMPBatchWriter.mm; path = XMPFramework/Classes/Public/XMPWriter/XMPBatchWriter/XMPBatchWriter.mm; sourceTree = "<group>"; };
+		390CC1EC792D3F18008DFE5E666460E0 /* XMPProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPProperty.h; path = XMPFramework/Classes/Public/XMPWriter/XMPProperty/XMPProperty.h; sourceTree = "<group>"; };
+		3938B8D0B21A034BDBDD601D6C441A87 /* XMPCommonErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPCommonErrorCodes.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/XMPCommonErrorCodes.h"; sourceTree = "<group>"; };
+		3AAF8ECC2FDD584BD88AEB238E1BFDD5 /* IPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPath.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IPath.h"; sourceTree = "<group>"; };
+		3B6148C5B758D246871310191D95D7D8 /* IConfigurationManager.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IConfigurationManager.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/source/IConfigurationManager.cpp"; sourceTree = "<group>"; };
+		3D7D7D93A12C757A4FFF202A8AD633C1 /* TXMPUtils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TXMPUtils.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/TXMPUtils.hpp"; sourceTree = "<group>"; };
+		3E163790D1544C244B43CB5DB3745F05 /* XMPFramework-PrefixHeader.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPFramework-PrefixHeader.pch"; path = "XMPFramework/Classes/Include/XMPFramework-PrefixHeader.pch"; sourceTree = "<group>"; };
+		3E53B849FF75DDFA26940D980AAE579F /* ISharedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISharedObject.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/BaseInterfaces/ISharedObject.h"; sourceTree = "<group>"; };
+		3E5E9465794F86A7A40873EDADD99D94 /* TXMPUtils.incl_cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TXMPUtils.incl_cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/client-glue/TXMPUtils.incl_cpp"; sourceTree = "<group>"; };
+		40D85D0FE5DAC3817641F80F39BB981D /* XMPCoreDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPCoreDefines.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/XMPCoreDefines.h"; sourceTree = "<group>"; };
+		414FFE8FFB64DD03ACE375B14EC6EE14 /* INode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = INode.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/INode.cpp"; sourceTree = "<group>"; };
+		41D1BEBCE57D7BC08260A45FAE2DBCDE /* IMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMetadata.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IMetadata.h"; sourceTree = "<group>"; };
+		45076ECE40CD55E193950AB33718CAAC /* libXMPFilesStatic.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libXMPFilesStatic.a; path = "XMPFramework/Adobe-XMP-ToolKit/libraries/libXMPFilesStatic.a"; sourceTree = "<group>"; };
+		45FCC0BF2EA335AC24FADA4946330DEC /* IMemoryAllocator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMemoryAllocator.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/IMemoryAllocator.h"; sourceTree = "<group>"; };
+		4623AE4AA88DF76D26BB714B7CEA4DFE /* IUTF8String.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IUTF8String.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/source/IUTF8String.cpp"; sourceTree = "<group>"; };
+		489FC3740048F4ED412B80AAB3C2DAEF /* Pods-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjC-dummy.m"; sourceTree = "<group>"; };
+		4CEC5827C6709764E8BDAF1CAD964556 /* XMPProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = XMPProperty.mm; path = XMPFramework/Classes/Public/XMPWriter/XMPProperty/XMPProperty.mm; sourceTree = "<group>"; };
+		4FB95D7727CA1DF8739C1A30FDC0A3D8 /* IErrorNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IErrorNotifier.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/IErrorNotifier.h"; sourceTree = "<group>"; };
+		52716458E4AC146A3942ECE1283C7B2C /* Pods-ObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjC-umbrella.h"; sourceTree = "<group>"; };
+		54F001B99DE8AAC6BB2DACCD7E73FF1E /* TXMPFiles.incl_cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TXMPFiles.incl_cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/client-glue/TXMPFiles.incl_cpp"; sourceTree = "<group>"; };
+		55BB5E3DF4EB10C71B715BB4C80E6E62 /* WXMPMeta.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = WXMPMeta.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/client-glue/WXMPMeta.hpp"; sourceTree = "<group>"; };
+		59F1E241F3347D28894A4129D695B48B /* ISimpleNode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ISimpleNode.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/ISimpleNode.cpp"; sourceTree = "<group>"; };
+		5B3EB00871EB01F849972DF0FA22D640 /* XMP_incl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XMP_incl.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMP_incl.hpp"; sourceTree = "<group>"; };
+		5C798D80A3EFC551B6C0265EAE4F1E6A /* WXMPFiles.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = WXMPFiles.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/client-glue/WXMPFiles.hpp"; sourceTree = "<group>"; };
+		5D155EA6FA33A543F024864108C10E11 /* IConfigurable.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IConfigurable.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/source/IConfigurable.cpp"; sourceTree = "<group>"; };
+		5FF8A26CD408C208AAB195ACCE92C825 /* XMPFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPFramework-prefix.pch"; sourceTree = "<group>"; };
+		65946FB2CAB9DB7FC736EC8D9E57E25C /* Pods-ObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjC-Info.plist"; sourceTree = "<group>"; };
+		659D52F3331CC12C84FDD0DD92A8CFBC /* XMP_IO.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XMP_IO.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMP_IO.hpp"; sourceTree = "<group>"; };
+		6699A80E82600B3E2A2D1A3E2E5E0B39 /* IConfigurable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IConfigurable.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/BaseInterfaces/IConfigurable.h"; sourceTree = "<group>"; };
+		681A9C3ECAA74B45F430CF6745FEB94A /* IVersionable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IVersionable.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/BaseInterfaces/IVersionable.h"; sourceTree = "<group>"; };
+		6820E3A576DB98099E6C51CD1BEC13E6 /* IUTF8String.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUTF8String.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/IUTF8String.h"; sourceTree = "<group>"; };
+		6838BA3FCF66AE930DCCF87D5D521594 /* TXMPMeta.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TXMPMeta.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/TXMPMeta.hpp"; sourceTree = "<group>"; };
+		6E020D6A3F6E98022B5A662948FE90E8 /* TXMPIterator.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TXMPIterator.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/TXMPIterator.hpp"; sourceTree = "<group>"; };
+		714D032BA6B5C86510DB4DD44BE9EC55 /* IClientDOMParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IClientDOMParser.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IClientDOMParser.h"; sourceTree = "<group>"; };
+		75A300E55011B9F3F2B470E32E1B118A /* Pods_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ObjC.framework; path = "Pods-ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7867ACBE971741214D137171A93208AE /* IDOMSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDOMSerializer.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IDOMSerializer.h"; sourceTree = "<group>"; };
+		793AC253615655F3111791997A0DA2B1 /* Pods-ObjC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjC-frameworks.sh"; sourceTree = "<group>"; };
+		79488AD8621B268CBBC8BEDE2DD2C4E9 /* XMPProperty+AutoResolving.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "XMPProperty+AutoResolving.mm"; path = "XMPFramework/Classes/Private/XMPProperty+AutoResolving/XMPProperty+AutoResolving.mm"; sourceTree = "<group>"; };
+		7B11C1A443B07DAD8D01661B1ADB861E /* IDOMImplementationRegistry.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IDOMImplementationRegistry.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IDOMImplementationRegistry.cpp"; sourceTree = "<group>"; };
+		7D844D90336A11094F996C91EA85D60E /* IArrayNode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IArrayNode.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IArrayNode.cpp"; sourceTree = "<group>"; };
+		7EDE77E9224B3B8B8AC84E8331EBE1D3 /* XMPCommonDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPCommonDefines.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/XMPCommonDefines.h"; sourceTree = "<group>"; };
+		80EC71C00BE8DD295325F15FA619FF6B /* XMP.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = XMP.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMP.hpp"; sourceTree = "<group>"; };
+		852E4A6D2240047A843ECF2869038F28 /* TXMPMeta.incl_cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TXMPMeta.incl_cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/client-glue/TXMPMeta.incl_cpp"; sourceTree = "<group>"; };
+		8544BBA9AA35EC8B1372982F208EAC1A /* IPath.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IPath.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IPath.cpp"; sourceTree = "<group>"; };
+		88EBAD2C085A9E3755FAA16202AAB07D /* XMPCommonLatestInterfaceVersions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPCommonLatestInterfaceVersions.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/XMPCommonLatestInterfaceVersions.h"; sourceTree = "<group>"; };
+		8CD0DAF0D6A09A9224DE526766A82F08 /* IStructureNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IStructureNode.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IStructureNode.h"; sourceTree = "<group>"; };
+		8F80487FFE8A59C0DC181733EFE4DAF7 /* IMetadata.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IMetadata.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IMetadata.cpp"; sourceTree = "<group>"; };
+		91FBBBAA5267B8460BAD57E6CFF43333 /* IThreadSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IThreadSafe.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/BaseInterfaces/IThreadSafe.h"; sourceTree = "<group>"; };
+		92D0F2E7017F88D013DC338B1A3438D7 /* XMPProperty+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPProperty+Private.h"; path = "XMPFramework/Classes/Private/XMPProperty+Private/XMPProperty+Private.h"; sourceTree = "<group>"; };
+		9563BE91B22B7026FAA608288AEEF22E /* INodeIterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INodeIterator.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/INodeIterator.h"; sourceTree = "<group>"; };
+		97336E654711F73B2F4357350A7CF08E /* XMPCoreErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPCoreErrorCodes.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/XMPCoreErrorCodes.h"; sourceTree = "<group>"; };
+		9CD62FFCEA8DB9B15B8D5234C472BF19 /* XMPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMPFramework.framework; path = XMPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3DD2978CA733A86F31FC295CF857CC /* Pods-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		9F9F3245C4CBA838E189742777B0FFE5 /* WXMPIterator.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = WXMPIterator.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/client-glue/WXMPIterator.hpp"; sourceTree = "<group>"; };
+		A480E45252398C6FD645C455F473ECDF /* IDOMParser.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IDOMParser.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IDOMParser.cpp"; sourceTree = "<group>"; };
+		A6D8991BAB3BC157A3D4E2D52D9918C1 /* INode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = INode.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/INode.h"; sourceTree = "<group>"; };
+		AACFE220D6E5DC27A36859612578129A /* IClientDOMParser.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IClientDOMParser.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IClientDOMParser.cpp"; sourceTree = "<group>"; };
+		AFD0A0276999AFAA6C91E62F15A8DCB5 /* ICoreConfigurationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICoreConfigurationManager.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/ICoreConfigurationManager.h"; sourceTree = "<group>"; };
+		B051236F2D9149F00010B77144FAC160 /* XMPFrameworkErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPFrameworkErrors.h; path = XMPFramework/Classes/Public/Common/XMPFrameworkErrors/XMPFrameworkErrors.h; sourceTree = "<group>"; };
+		B09AF60EC590D8184491A8A95617FEFD /* XMPCoreLatestInterfaceVersions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPCoreLatestInterfaceVersions.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/XMPCoreLatestInterfaceVersions.h"; sourceTree = "<group>"; };
+		B235A9C0050A02EB03FAA69F5887110B /* WXMP_Common.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = WXMP_Common.hpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/client-glue/WXMP_Common.hpp"; sourceTree = "<group>"; };
+		B830F3399EDC12F6761AA8EDDDEBFAE3 /* XMPCommonFwdDeclarations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPCommonFwdDeclarations.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/XMPCommonFwdDeclarations.h"; sourceTree = "<group>"; };
+		B9CBFB21EF0E107B5AD445EBB06243D6 /* XMP_Environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMP_Environment.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMP_Environment.h"; sourceTree = "<group>"; };
+		BF9AF3D1384079AC6F7F2EC3FE6E8D66 /* XMPWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPWriter.h; path = XMPFramework/Classes/Public/XMPWriter/XMPWriter.h; sourceTree = "<group>"; };
+		C327904212B52CC1CAF4B089D8FD2DB2 /* IClientDOMSerializer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IClientDOMSerializer.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IClientDOMSerializer.cpp"; sourceTree = "<group>"; };
+		C65436E4A1A08C41BA1AD8C6EB536CDA /* ICoreConfigurationManager.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ICoreConfigurationManager.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/ICoreConfigurationManager.cpp"; sourceTree = "<group>"; };
+		C697E7EE29B0B09572BA02BE4292BF99 /* IStructureNode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IStructureNode.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IStructureNode.cpp"; sourceTree = "<group>"; };
+		C6AF6BFA8A50D05D489F9FA77B709282 /* INameSpacePrefixMap.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = INameSpacePrefixMap.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/INameSpacePrefixMap.cpp"; sourceTree = "<group>"; };
+		C6CFE440C4F64BD0B3B9FF88800EEF1B /* IDOMSerializer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = IDOMSerializer.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/IDOMSerializer.cpp"; sourceTree = "<group>"; };
+		C82C98CDB0FC7747C73963761256232F /* XMPBatchWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPBatchWriter.h; path = XMPFramework/Classes/Public/XMPWriter/XMPBatchWriter/XMPBatchWriter.h; sourceTree = "<group>"; };
+		D143795FF092D7B1208C6CACC580C318 /* libXMPCoreStatic.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libXMPCoreStatic.a; path = "XMPFramework/Adobe-XMP-ToolKit/libraries/libXMPCoreStatic.a"; sourceTree = "<group>"; };
+		D1C55315DB0EC874AF88D28EE45B76D2 /* ISimpleNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISimpleNode.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/ISimpleNode.h"; sourceTree = "<group>"; };
+		D54B345FDEB35752C04C48886B399DEF /* XMPWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = XMPWriter.mm; path = XMPFramework/Classes/Public/XMPWriter/XMPWriter.mm; sourceTree = "<group>"; };
+		D6AFE75FAD1AF643518A80C6C485E413 /* IDOMParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDOMParser.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IDOMParser.h"; sourceTree = "<group>"; };
+		D6E1D647D51C7D79EBE6E161A6FA73F2 /* IArrayNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IArrayNode.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IArrayNode.h"; sourceTree = "<group>"; };
+		D7EC1E9B553BF9361C25B92E358E4C38 /* ICompositeNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICompositeNode.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/ICompositeNode.h"; sourceTree = "<group>"; };
+		D9C90DCB5C91FC6BFA45592C3F31D9B4 /* XMPProperty+AutoResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPProperty+AutoResolving.h"; path = "XMPFramework/Classes/Private/XMPProperty+AutoResolving/XMPProperty+AutoResolving.h"; sourceTree = "<group>"; };
+		DB2296BE8D6126BAB3826B7E802AFF78 /* IPathSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPathSegment.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IPathSegment.h"; sourceTree = "<group>"; };
+		DC34E118ADE18BFFC9FD3D82C7D53B1C /* XMPFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMPFramework.modulemap; sourceTree = "<group>"; };
+		E3F3A7EB841768BB0201E70EDBFDCD30 /* XMPFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMPFramework-dummy.m"; sourceTree = "<group>"; };
+		E90C44FB911AF0E4E9024EFF55384440 /* ICompositeNode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ICompositeNode.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/ICompositeNode.cpp"; sourceTree = "<group>"; };
+		E9C7EAFD3BCDB4F73DE2D72D60832456 /* XMP_Version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMP_Version.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMP_Version.h"; sourceTree = "<group>"; };
+		ECDB315F57911BD3ACFE2FB94D5BB0FE /* INodeIterator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = INodeIterator.cpp; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/source/INodeIterator.cpp"; sourceTree = "<group>"; };
+		F3D5DD03D70401B1462496D9D2CE85BC /* Pods-ObjC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjC-acknowledgements.plist"; sourceTree = "<group>"; };
+		F81C5EE0D01B135AA1CD0D0564DCC3B7 /* IConfigurationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IConfigurationManager.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/IConfigurationManager.h"; sourceTree = "<group>"; };
+		F83872ECD912BEF03F49DFACF7847FA2 /* IClientDOMSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IClientDOMSerializer.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCore/Interfaces/IClientDOMSerializer.h"; sourceTree = "<group>"; };
+		FE01E28CB56E36B96AC8213D48EFB6FF /* Pods-ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjC.modulemap"; sourceTree = "<group>"; };
+		FE1395AB9C620ADE2476AEC28E0BD367 /* XMPFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPFramework-umbrella.h"; sourceTree = "<group>"; };
+		FE186B65EDA2AE60A68EB2488E4106D9 /* IObjectFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IObjectFactory.h; path = "XMPFramework/Adobe-XMP-ToolKit/include/XMPCommon/Interfaces/IObjectFactory.h"; sourceTree = "<group>"; };
+		FF40030DE4941DFA26932EAE7533B5C8 /* Pods-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F39BB7C073B8A4DA055C5A548FFA2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F1644CE129BABE7F3568E8CEFB63E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC01B2EC0EF8FF8A01EF60D6AB80A7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABFF5DA542ED602CC7464B6001F32F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C77648736899094A4CFB17DF4C01F37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D9BCCAA9615F29CAC071308712EC56B /* XMPFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		519CAEAAD2D8F3CC312B0216468DB05E /* Pods-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				FE01E28CB56E36B96AC8213D48EFB6FF /* Pods-ObjC.modulemap */,
+				0835A8B44B5409084117FE8C07ED66F7 /* Pods-ObjC-acknowledgements.markdown */,
+				F3D5DD03D70401B1462496D9D2CE85BC /* Pods-ObjC-acknowledgements.plist */,
+				489FC3740048F4ED412B80AAB3C2DAEF /* Pods-ObjC-dummy.m */,
+				793AC253615655F3111791997A0DA2B1 /* Pods-ObjC-frameworks.sh */,
+				65946FB2CAB9DB7FC736EC8D9E57E25C /* Pods-ObjC-Info.plist */,
+				52716458E4AC146A3942ECE1283C7B2C /* Pods-ObjC-umbrella.h */,
+				9F3DD2978CA733A86F31FC295CF857CC /* Pods-ObjC.debug.xcconfig */,
+				FF40030DE4941DFA26932EAE7533B5C8 /* Pods-ObjC.release.xcconfig */,
+			);
+			name = "Pods-ObjC";
+			path = "Target Support Files/Pods-ObjC";
+			sourceTree = "<group>";
+		};
+		5EEB10604DCC7E229DD65B3CCB7A40CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D143795FF092D7B1208C6CACC580C318 /* libXMPCoreStatic.a */,
+				45076ECE40CD55E193950AB33718CAAC /* libXMPFilesStatic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D9BCCAA9615F29CAC071308712EC56B /* XMPFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1DDF9CAC519A59D081A0FC65B802BB4A /* AdobeXMPToolKit.h */,
+				7D844D90336A11094F996C91EA85D60E /* IArrayNode.cpp */,
+				D6E1D647D51C7D79EBE6E161A6FA73F2 /* IArrayNode.h */,
+				AACFE220D6E5DC27A36859612578129A /* IClientDOMParser.cpp */,
+				714D032BA6B5C86510DB4DD44BE9EC55 /* IClientDOMParser.h */,
+				C327904212B52CC1CAF4B089D8FD2DB2 /* IClientDOMSerializer.cpp */,
+				F83872ECD912BEF03F49DFACF7847FA2 /* IClientDOMSerializer.h */,
+				E90C44FB911AF0E4E9024EFF55384440 /* ICompositeNode.cpp */,
+				D7EC1E9B553BF9361C25B92E358E4C38 /* ICompositeNode.h */,
+				5D155EA6FA33A543F024864108C10E11 /* IConfigurable.cpp */,
+				6699A80E82600B3E2A2D1A3E2E5E0B39 /* IConfigurable.h */,
+				3B6148C5B758D246871310191D95D7D8 /* IConfigurationManager.cpp */,
+				F81C5EE0D01B135AA1CD0D0564DCC3B7 /* IConfigurationManager.h */,
+				C65436E4A1A08C41BA1AD8C6EB536CDA /* ICoreConfigurationManager.cpp */,
+				AFD0A0276999AFAA6C91E62F15A8DCB5 /* ICoreConfigurationManager.h */,
+				22DCC55D81343AE44A366FA9DA58EDD4 /* ICoreObjectFactory.cpp */,
+				2F6DEA1CB77FDD8505DCAC3753092629 /* ICoreObjectFactory.h */,
+				7B11C1A443B07DAD8D01661B1ADB861E /* IDOMImplementationRegistry.cpp */,
+				0BCFBA2C3F158882914D1D867AC41187 /* IDOMImplementationRegistry.h */,
+				A480E45252398C6FD645C455F473ECDF /* IDOMParser.cpp */,
+				D6AFE75FAD1AF643518A80C6C485E413 /* IDOMParser.h */,
+				C6CFE440C4F64BD0B3B9FF88800EEF1B /* IDOMSerializer.cpp */,
+				7867ACBE971741214D137171A93208AE /* IDOMSerializer.h */,
+				24B9135E7FBAC4B82060FA940F5829B7 /* IError.cpp */,
+				21F7A01D256C35F4D9102689579A3020 /* IError.h */,
+				1B7AD0A4D24A20A8AF22510BC6FF8AF1 /* IErrorNotifier.cpp */,
+				4FB95D7727CA1DF8739C1A30FDC0A3D8 /* IErrorNotifier.h */,
+				45FCC0BF2EA335AC24FADA4946330DEC /* IMemoryAllocator.h */,
+				8F80487FFE8A59C0DC181733EFE4DAF7 /* IMetadata.cpp */,
+				41D1BEBCE57D7BC08260A45FAE2DBCDE /* IMetadata.h */,
+				C6AF6BFA8A50D05D489F9FA77B709282 /* INameSpacePrefixMap.cpp */,
+				0D34429D8731E281DF387D7A9E3D577A /* INameSpacePrefixMap.h */,
+				414FFE8FFB64DD03ACE375B14EC6EE14 /* INode.cpp */,
+				A6D8991BAB3BC157A3D4E2D52D9918C1 /* INode.h */,
+				ECDB315F57911BD3ACFE2FB94D5BB0FE /* INodeIterator.cpp */,
+				9563BE91B22B7026FAA608288AEEF22E /* INodeIterator.h */,
+				FE186B65EDA2AE60A68EB2488E4106D9 /* IObjectFactory.h */,
+				8544BBA9AA35EC8B1372982F208EAC1A /* IPath.cpp */,
+				3AAF8ECC2FDD584BD88AEB238E1BFDD5 /* IPath.h */,
+				06B921C2457C90678EC7918EE1F6DEC8 /* IPathSegment.cpp */,
+				DB2296BE8D6126BAB3826B7E802AFF78 /* IPathSegment.h */,
+				3E53B849FF75DDFA26940D980AAE579F /* ISharedObject.h */,
+				59F1E241F3347D28894A4129D695B48B /* ISimpleNode.cpp */,
+				D1C55315DB0EC874AF88D28EE45B76D2 /* ISimpleNode.h */,
+				C697E7EE29B0B09572BA02BE4292BF99 /* IStructureNode.cpp */,
+				8CD0DAF0D6A09A9224DE526766A82F08 /* IStructureNode.h */,
+				91FBBBAA5267B8460BAD57E6CFF43333 /* IThreadSafe.h */,
+				4623AE4AA88DF76D26BB714B7CEA4DFE /* IUTF8String.cpp */,
+				6820E3A576DB98099E6C51CD1BEC13E6 /* IUTF8String.h */,
+				681A9C3ECAA74B45F430CF6745FEB94A /* IVersionable.h */,
+				05A08C0CEB1B02737B5A304B0580A144 /* TWrapperFunctions.h */,
+				0BAD84C09603CABBC2184C90D7D8110E /* TWrapperFunctions2.h */,
+				2D800E455C95F4AD23F26693878B16E0 /* TXMPFiles.hpp */,
+				54F001B99DE8AAC6BB2DACCD7E73FF1E /* TXMPFiles.incl_cpp */,
+				6E020D6A3F6E98022B5A662948FE90E8 /* TXMPIterator.hpp */,
+				0A9D512A1AEE9F3C0D58BCC7F2484380 /* TXMPIterator.incl_cpp */,
+				6838BA3FCF66AE930DCCF87D5D521594 /* TXMPMeta.hpp */,
+				852E4A6D2240047A843ECF2869038F28 /* TXMPMeta.incl_cpp */,
+				3D7D7D93A12C757A4FFF202A8AD633C1 /* TXMPUtils.hpp */,
+				3E5E9465794F86A7A40873EDADD99D94 /* TXMPUtils.incl_cpp */,
+				B235A9C0050A02EB03FAA69F5887110B /* WXMP_Common.hpp */,
+				5C798D80A3EFC551B6C0265EAE4F1E6A /* WXMPFiles.hpp */,
+				9F9F3245C4CBA838E189742777B0FFE5 /* WXMPIterator.hpp */,
+				55BB5E3DF4EB10C71B715BB4C80E6E62 /* WXMPMeta.hpp */,
+				024B5261E6C916CF309795270B626B86 /* WXMPUtils.hpp */,
+				80EC71C00BE8DD295325F15FA619FF6B /* XMP.hpp */,
+				332F95701558DA43A4A08CFD9403697C /* XMP_Const.h */,
+				B9CBFB21EF0E107B5AD445EBB06243D6 /* XMP_Environment.h */,
+				5B3EB00871EB01F849972DF0FA22D640 /* XMP_incl.hpp */,
+				659D52F3331CC12C84FDD0DD92A8CFBC /* XMP_IO.hpp */,
+				E9C7EAFD3BCDB4F73DE2D72D60832456 /* XMP_Version.h */,
+				C82C98CDB0FC7747C73963761256232F /* XMPBatchWriter.h */,
+				37E923940D4AD7D39063D48872161085 /* XMPBatchWriter.mm */,
+				7EDE77E9224B3B8B8AC84E8331EBE1D3 /* XMPCommonDefines.h */,
+				3938B8D0B21A034BDBDD601D6C441A87 /* XMPCommonErrorCodes.h */,
+				B830F3399EDC12F6761AA8EDDDEBFAE3 /* XMPCommonFwdDeclarations.h */,
+				88EBAD2C085A9E3755FAA16202AAB07D /* XMPCommonLatestInterfaceVersions.h */,
+				40D85D0FE5DAC3817641F80F39BB981D /* XMPCoreDefines.h */,
+				97336E654711F73B2F4357350A7CF08E /* XMPCoreErrorCodes.h */,
+				067887D4C437D3811DD91DA33B553680 /* XMPCoreFwdDeclarations.h */,
+				B09AF60EC590D8184491A8A95617FEFD /* XMPCoreLatestInterfaceVersions.h */,
+				3E163790D1544C244B43CB5DB3745F05 /* XMPFramework-PrefixHeader.pch */,
+				B051236F2D9149F00010B77144FAC160 /* XMPFrameworkErrors.h */,
+				390CC1EC792D3F18008DFE5E666460E0 /* XMPProperty.h */,
+				4CEC5827C6709764E8BDAF1CAD964556 /* XMPProperty.mm */,
+				D9C90DCB5C91FC6BFA45592C3F31D9B4 /* XMPProperty+AutoResolving.h */,
+				79488AD8621B268CBBC8BEDE2DD2C4E9 /* XMPProperty+AutoResolving.mm */,
+				92D0F2E7017F88D013DC338B1A3438D7 /* XMPProperty+Private.h */,
+				1EF03B93E79E045913EE0637EB6AA0DD /* XMPReader.h */,
+				1F0F4B7307B1FF4324C50475A4E9CBAF /* XMPReader.mm */,
+				31CFDE67E31D381E47E63F680F6CE530 /* XMPReader+Private.h */,
+				BF9AF3D1384079AC6F7F2EC3FE6E8D66 /* XMPWriter.h */,
+				D54B345FDEB35752C04C48886B399DEF /* XMPWriter.mm */,
+				0FE0BE27D2FEBAD5E2D24317C51B5057 /* XMPWriter+Private.h */,
+				5EEB10604DCC7E229DD65B3CCB7A40CA /* Frameworks */,
+				84DA4BF94E311B9C709ADF61C6816E48 /* Support Files */,
+			);
+			name = XMPFramework;
+			path = XMPFramework;
+			sourceTree = "<group>";
+		};
+		7DC810B12F082F4FD70938A6E7AA1F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A300E55011B9F3F2B470E32E1B118A /* Pods_ObjC.framework */,
+				9CD62FFCEA8DB9B15B8D5234C472BF19 /* XMPFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DA4BF94E311B9C709ADF61C6816E48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC34E118ADE18BFFC9FD3D82C7D53B1C /* XMPFramework.modulemap */,
+				0B247F29898D691FCC8675E025D4473C /* XMPFramework.xcconfig */,
+				E3F3A7EB841768BB0201E70EDBFDCD30 /* XMPFramework-dummy.m */,
+				1BC5AFFBD6C1995950D1BCBD5AA41F37 /* XMPFramework-Info.plist */,
+				5FF8A26CD408C208AAB195ACCE92C825 /* XMPFramework-prefix.pch */,
+				FE1395AB9C620ADE2476AEC28E0BD367 /* XMPFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XMPFramework";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4C77648736899094A4CFB17DF4C01F37 /* Pods */,
+				7DC810B12F082F4FD70938A6E7AA1F42 /* Products */,
+				EFFB1E5ABD54393B198D11AB06AB7875 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFFB1E5ABD54393B198D11AB06AB7875 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				519CAEAAD2D8F3CC312B0216468DB05E /* Pods-ObjC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		942CB0493E26D8FDB9E8B7C7AC9E881D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C91CBA4DEEBD5DBFB9020901AEDE80 /* AdobeXMPToolKit.h in Headers */,
+				B6B1683BC64F0B6E47D131F51B5B6FB4 /* IArrayNode.h in Headers */,
+				C1E5A348E870C2F4922A81A92D499CDE /* IClientDOMParser.h in Headers */,
+				B1DBAAFF498FB7BAAF8D5BE0276D30A0 /* IClientDOMSerializer.h in Headers */,
+				9BDCBDD78091143E13150EDEA4E453C5 /* ICompositeNode.h in Headers */,
+				0CA87351466374342EE4CD37E808F918 /* IConfigurable.h in Headers */,
+				CC236076546539A4C2CE64F82F052D77 /* IConfigurationManager.h in Headers */,
+				D89A9AFD3F6FEBA30384A9A552FB4031 /* ICoreConfigurationManager.h in Headers */,
+				45BC0252B8FBA7B222C195259FA564E6 /* ICoreObjectFactory.h in Headers */,
+				F35DBF020C99016BF4E70D33F0692387 /* IDOMImplementationRegistry.h in Headers */,
+				CC5933D89C334A8726648331EE1C6B3D /* IDOMParser.h in Headers */,
+				B71C358A71ABC690F40FC9D3DF5A36E8 /* IDOMSerializer.h in Headers */,
+				CADA0606C79365AA06997186F75F521F /* IError.h in Headers */,
+				B6BE6612D522EB0A788B3B2392D213EE /* IErrorNotifier.h in Headers */,
+				9895918CBE2B526E907AE83A4E876E21 /* IMemoryAllocator.h in Headers */,
+				2064DAD8A03F92FAF481933AB5ADEF51 /* IMetadata.h in Headers */,
+				C1DE45C4F005932D05C9E1D33CE84F41 /* INameSpacePrefixMap.h in Headers */,
+				5F0DC09927643344E6C9BE18808F681C /* INode.h in Headers */,
+				DCE4AB6429657BF9CC41728DEDC57268 /* INodeIterator.h in Headers */,
+				47096B14BDC798E185E895C480CF6296 /* IObjectFactory.h in Headers */,
+				7275872EB125894D1B3EF7A78F68623D /* IPath.h in Headers */,
+				D9B64C4BD1647F7DF1E10E945E5E41DA /* IPathSegment.h in Headers */,
+				BF94CFFE3774841984BA9ED97F20FC69 /* ISharedObject.h in Headers */,
+				8C496E27E6493B9D286641A424C505FF /* ISimpleNode.h in Headers */,
+				EB65A5D3B8054DD26E983EF02AE450B6 /* IStructureNode.h in Headers */,
+				482F310A09EB0365151A537CF7C4CDE4 /* IThreadSafe.h in Headers */,
+				C0939C2E4AE1D4F0166DDB356E3EE84E /* IUTF8String.h in Headers */,
+				7E7C8FB54E3112BE28FB851C574E211C /* IVersionable.h in Headers */,
+				969A5156B0C90EF05E4AF5C69469A888 /* TWrapperFunctions.h in Headers */,
+				5ABC13ABD3551ADB03CEABDBF46FEEF7 /* TWrapperFunctions2.h in Headers */,
+				09D7B1DCE9BBF0C5E2EE4CB10873C25B /* TXMPFiles.hpp in Headers */,
+				6D5E0052F66F52EA34B97285EB503170 /* TXMPIterator.hpp in Headers */,
+				28B0F7C2F9EC1786875995B6580BF2FE /* TXMPMeta.hpp in Headers */,
+				CC748CE9ED99ABD189ABBD988213789D /* TXMPUtils.hpp in Headers */,
+				E1AD248D77900D5F97FCFFC4FB007A44 /* WXMP_Common.hpp in Headers */,
+				EDAAB889FE06794897501E415FF3A90E /* WXMPFiles.hpp in Headers */,
+				EC460184B238D6100B460C1BD3A20B9D /* WXMPIterator.hpp in Headers */,
+				C727DB54BE7CB7A9D137B660533D2C1F /* WXMPMeta.hpp in Headers */,
+				511C902D1939494E454E8AE17CAEF667 /* WXMPUtils.hpp in Headers */,
+				977D73C780F477F7BA0AA8E1846976E4 /* XMP.hpp in Headers */,
+				7177E995AA23DC39E16E2E8B7234A6BB /* XMP_Const.h in Headers */,
+				8D51FDCDD218543C1CEEC57F8C3ECAAC /* XMP_Environment.h in Headers */,
+				B13DF9ABB516026F29B4CFA6A80B49DE /* XMP_incl.hpp in Headers */,
+				5A45BAC50BF63F989C8FD5B6B4051512 /* XMP_IO.hpp in Headers */,
+				DA618E09F59262C85414546C6C0D5047 /* XMP_Version.h in Headers */,
+				1A535C00044625DA9D9568A54717DE99 /* XMPBatchWriter.h in Headers */,
+				FE0F5A569D8BFF4806B6B278D5FBEE66 /* XMPCommonDefines.h in Headers */,
+				681FE77990291142D15CCD9CFEA30EFB /* XMPCommonErrorCodes.h in Headers */,
+				76636C86392A46CF3D06B4BE277524EE /* XMPCommonFwdDeclarations.h in Headers */,
+				7386994C560E55A631C5F3BDBF824D1E /* XMPCommonLatestInterfaceVersions.h in Headers */,
+				6F15EB82BE1F14D35D40ECF532F9BCA6 /* XMPCoreDefines.h in Headers */,
+				F65EC7F41518E993DF759E64A2BB77BA /* XMPCoreErrorCodes.h in Headers */,
+				05A1199448A6E3050669C2FC6A019A8A /* XMPCoreFwdDeclarations.h in Headers */,
+				DB1260931F311DBE3C88A392C8058872 /* XMPCoreLatestInterfaceVersions.h in Headers */,
+				BB77C83D58DA5A8CF90089DB744ADEDB /* XMPFramework-umbrella.h in Headers */,
+				70EBC0F6E9494C5BCB8093D56F0C2B71 /* XMPFrameworkErrors.h in Headers */,
+				A3D08E9CA6CE5FD8A4EC372C2A9B9B8B /* XMPProperty+AutoResolving.h in Headers */,
+				DA0899D1C0D0DF01A72878112716C9C4 /* XMPProperty+Private.h in Headers */,
+				EA5CE9CE64BE02F200243FEAD645CCD5 /* XMPProperty.h in Headers */,
+				0E61213E48E8D14B3FEA092CD1CB6224 /* XMPReader+Private.h in Headers */,
+				A684216ECA15EF0D2DA6C4022B0A57F3 /* XMPReader.h in Headers */,
+				832028D6987C155033E8A673AC57CE1D /* XMPWriter+Private.h in Headers */,
+				D5A72FD7C8C655028AA1FF957B88B137 /* XMPWriter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62F6697990BA7F46D975C795C8262BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2C0421E9C2A8BA93ABA3451F754695 /* Pods-ObjC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32642D48A225429D7CA712CE5725391F /* Pods-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C3B4A2F02C74F093261D3D68D000FE /* Build configuration list for PBXNativeTarget "Pods-ObjC" */;
+			buildPhases = (
+				D62F6697990BA7F46D975C795C8262BC /* Headers */,
+				566F6F47FE6DDB605477133839AAFC8B /* Sources */,
+				1F39BB7C073B8A4DA055C5A548FFA2FD /* Frameworks */,
+				691E2550108FEB9AC97FB1F84CE036D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0FCFAE99D761CEE1D8ED8D197D4443 /* PBXTargetDependency */,
+			);
+			name = "Pods-ObjC";
+			productName = "Pods-ObjC";
+			productReference = 75A300E55011B9F3F2B470E32E1B118A /* Pods_ObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		860190491B0E76A7F7C65961D93E5856 /* XMPFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30146BB329AF67FAA646A4716167F721 /* Build configuration list for PBXNativeTarget "XMPFramework" */;
+			buildPhases = (
+				942CB0493E26D8FDB9E8B7C7AC9E881D /* Headers */,
+				C7ECCE594B9CA16811A4151574F8A66C /* Sources */,
+				BC01B2EC0EF8FF8A01EF60D6AB80A7F9 /* Frameworks */,
+				FA977CBD2756F1B33CAE875ACC7F5CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPFramework;
+			productName = XMPFramework;
+			productReference = 9CD62FFCEA8DB9B15B8D5234C472BF19 /* XMPFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7DC810B12F082F4FD70938A6E7AA1F42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32642D48A225429D7CA712CE5725391F /* Pods-ObjC */,
+				860190491B0E76A7F7C65961D93E5856 /* XMPFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		691E2550108FEB9AC97FB1F84CE036D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA977CBD2756F1B33CAE875ACC7F5CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566F6F47FE6DDB605477133839AAFC8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEB169F8F7F32734AAC6F2B690D0543 /* Pods-ObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7ECCE594B9CA16811A4151574F8A66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430AB2821A71E64CBF5B7AC2C5869FFF /* IArrayNode.cpp in Sources */,
+				A7865CBA8C6FB526CC9D2361495D11FB /* IClientDOMParser.cpp in Sources */,
+				BEFEFA7F91B6FEAFE9E8426778CAD3DA /* IClientDOMSerializer.cpp in Sources */,
+				632B25200E8CA4B9B7DACD3CEB317E5E /* ICompositeNode.cpp in Sources */,
+				C2A91B80A3B67242AC96A283B5C2C512 /* IConfigurable.cpp in Sources */,
+				91E9AA16C57A3DDB0227543620C32EE5 /* IConfigurationManager.cpp in Sources */,
+				9EE7B537FEFC581F878F2BD6816E7DBA /* ICoreConfigurationManager.cpp in Sources */,
+				2E26F9AEDA4E3CBFD4EFC33DFCB42242 /* ICoreObjectFactory.cpp in Sources */,
+				FF7E36C07B487E9002AD900524CCE749 /* IDOMImplementationRegistry.cpp in Sources */,
+				4A6203435AF139F7AC535CC5BEA9E7F3 /* IDOMParser.cpp in Sources */,
+				B1E3EBBF4D9C57870344DB5859C29A3E /* IDOMSerializer.cpp in Sources */,
+				92D378E22CA9CFEFAEB5A7C0B4F95057 /* IError.cpp in Sources */,
+				FB096AEB3B3FAA7A4126E7025C79C867 /* IErrorNotifier.cpp in Sources */,
+				EE16F185C39B80E52B0C80893A1F52CB /* IMetadata.cpp in Sources */,
+				DDFB39A3EDD773540145E57A788DFDF3 /* INameSpacePrefixMap.cpp in Sources */,
+				3D965AD60346D99F114356615E3E65E7 /* INode.cpp in Sources */,
+				D73475D7431F3899C03EC0E95CA0D23F /* INodeIterator.cpp in Sources */,
+				68AF4BE8E19A015CD2DD8A44A94BC3C7 /* IPath.cpp in Sources */,
+				6EB2C58BF822D5478415670B3CA8BE26 /* IPathSegment.cpp in Sources */,
+				14883059CC64B7FE4136B9A36A2F9D93 /* ISimpleNode.cpp in Sources */,
+				676B7B2BF33CEFCE3496E24D0A213DCB /* IStructureNode.cpp in Sources */,
+				E86DF79AAD8E94670FC37A5A110187A8 /* IUTF8String.cpp in Sources */,
+				C40113821F2CDDA6B358D4F6642516FC /* TXMPFiles.incl_cpp in Sources */,
+				37C5AF582828DE243CE1CD8C5CBBAECB /* TXMPIterator.incl_cpp in Sources */,
+				126AA25E1C18FDD6AF85EF2BDFBFD964 /* TXMPMeta.incl_cpp in Sources */,
+				E7D36055F62CDF06E426B70138183CAB /* TXMPUtils.incl_cpp in Sources */,
+				BB05EC5D8EB0962763D3849D988756BA /* XMPBatchWriter.mm in Sources */,
+				02309C58840C85336BB3B0F9788D798C /* XMPFramework-dummy.m in Sources */,
+				E48E8B7B8FE7E7470E4B885F5D3EA62F /* XMPFramework-PrefixHeader.pch in Sources */,
+				BF8158B493224EA02E07ED203E61BC77 /* XMPProperty+AutoResolving.mm in Sources */,
+				E76F7B50E3BF54F12A8C21926245DD30 /* XMPProperty.mm in Sources */,
+				C451390E0D32F865CBD7B36240CABF48 /* XMPReader.mm in Sources */,
+				645823223F46783BEE3C4BBC21287DDC /* XMPWriter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C0FCFAE99D761CEE1D8ED8D197D4443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMPFramework;
+			target = 860190491B0E76A7F7C65961D93E5856 /* XMPFramework */;
+			targetProxy = F5A38E8DD13CD7185B030CA128AE1FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3EA1CA5366773612BDB0FB573A5A4A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF40030DE4941DFA26932EAE7533B5C8 /* Pods-ObjC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjC/Pods-ObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjC/Pods-ObjC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41BEE7D37375C20992E091BAEAF06DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B247F29898D691FCC8675E025D4473C /* XMPFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMPFramework/XMPFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMPFramework/XMPFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMPFramework/XMPFramework.modulemap";
+				PRODUCT_MODULE_NAME = XMPFramework;
+				PRODUCT_NAME = XMPFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9C26F1D05D2CE1CC7AD3E713F5E8C566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B247F29898D691FCC8675E025D4473C /* XMPFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMPFramework/XMPFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMPFramework/XMPFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMPFramework/XMPFramework.modulemap";
+				PRODUCT_MODULE_NAME = XMPFramework;
+				PRODUCT_NAME = XMPFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB40EA60E933F8B574501612BAAEAAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3DD2978CA733A86F31FC295CF857CC /* Pods-ObjC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjC/Pods-ObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjC/Pods-ObjC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30146BB329AF67FAA646A4716167F721 /* Build configuration list for PBXNativeTarget "XMPFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BEE7D37375C20992E091BAEAF06DE7 /* Debug */,
+				9C26F1D05D2CE1CC7AD3E713F5E8C566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C3B4A2F02C74F093261D3D68D000FE /* Build configuration list for PBXNativeTarget "Pods-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB40EA60E933F8B574501612BAAEAAA3 /* Debug */,
+				3EA1CA5366773612BDB0FB573A5A4A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
